@@ -15,7 +15,7 @@ ReactDOM.render(
   <Auth0Provider
     domain= {"dev-9id8uqns.us.auth0.com"}
     clientId= {"jS19XuwsZFKUL6rH3l2Y05MEWhTCdrUo"}
-    redirectUri={'http://localhost:3000'}
+    redirectUri={'https://harminder20222.github.io/auth0-org-test'}
     organization="org_gTZDahxrckSjEBDE"
 
   >
