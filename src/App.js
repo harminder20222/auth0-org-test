@@ -14,6 +14,10 @@ function App() {
   const url = window.location.href;
   const inviteMatches = url.match(/invitation=([^&]+)/);
   const orgMatches = url.match(/organization=([^&]+)/);
+
+  console.log(inviteMatches);
+  console.log(orgMatches);
+  console.log(url);
   if (inviteMatches && orgMatches) {
     loginWithRedirect({
       organization: orgMatches[1],
