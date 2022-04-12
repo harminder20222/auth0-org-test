@@ -6,10 +6,20 @@ import User from './components/User';
 import Quiz from './components/Quiz';
 
 function App() {
-  const { isLoading, isAuthenticated , user } = useAuth0();
+  const { isLoading, isAuthenticated , user, loginWithRedirect } = useAuth0();
 
   console.log(user);
   console.log(isAuthenticated);
+
+  const url = window.location.href;
+  const inviteMatches = url.match(/invitation=([^&]+)/);
+  const orgMatches = url.match(/organization=([^&]+)/);
+  if (inviteMatches && orgMatches) {
+    loginWithRedirect({
+      organization: orgMatches[1],
+      invitation: inviteMatches[1],
+    });
+  }
   if (isLoading) return <div>Loading...</div>
 
   return (
