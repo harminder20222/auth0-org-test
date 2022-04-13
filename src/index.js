@@ -17,7 +17,9 @@ ReactDOM.render(
     clientId= {"jS19XuwsZFKUL6rH3l2Y05MEWhTCdrUo"}
     redirectUri={'https://harminder20222.github.io/auth0-org-test'}
     organization="org_gTZDahxrckSjEBDE"
-
+    onRedirectCallback={() => {
+      console.log('hello')
+    }}
   >
     <App />
     </Auth0Provider>,
