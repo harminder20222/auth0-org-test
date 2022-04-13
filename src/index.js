@@ -13,10 +13,10 @@ const checkThat = (app) => {
 
 ReactDOM.render(
   <Auth0Provider
-    domain= {"dev-9id8uqns.us.auth0.com"}
-    clientId= {"jS19XuwsZFKUL6rH3l2Y05MEWhTCdrUo"}
+    domain= {"bskt.eu.auth0.com"}
+    clientId= {"r15awsL3P2MPoxXIHFwMrXD4xAfHhULN"}
     redirectUri={'https://harminder20222.github.io/auth0-org-test'}
-    organization="org_gTZDahxrckSjEBDE"
+    organization="org_0jykpvEuolovRQ1d"
     onRedirectCallback={() => {
       console.log('hello')
     }}
