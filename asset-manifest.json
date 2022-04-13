@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/auth0-org-test/static/css/main.c3fb1bf5.chunk.css",
-    "main.js": "/auth0-org-test/static/js/main.24a7e28c.chunk.js",
-    "main.js.map": "/auth0-org-test/static/js/main.24a7e28c.chunk.js.map",
+    "main.js": "/auth0-org-test/static/js/main.d57af7bc.chunk.js",
+    "main.js.map": "/auth0-org-test/static/js/main.d57af7bc.chunk.js.map",
     "runtime-main.js": "/auth0-org-test/static/js/runtime-main.918c1cb9.js",
     "runtime-main.js.map": "/auth0-org-test/static/js/runtime-main.918c1cb9.js.map",
     "static/js/2.7f67cf9a.chunk.js": "/auth0-org-test/static/js/2.7f67cf9a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.918c1cb9.js",
     "static/js/2.7f67cf9a.chunk.js",
     "static/css/main.c3fb1bf5.chunk.css",
-    "static/js/main.24a7e28c.chunk.js"
+    "static/js/main.d57af7bc.chunk.js"
   ]
 }
